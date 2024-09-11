@@ -20,7 +20,7 @@ function App() {
       </h1>
       <ul>
         {
-          players.map(x => <li>{x}</li>)
+          players.map(x => <li style={{ textAlign: 'left'}}>{x}</li>)
         }
       </ul>
     </div>
