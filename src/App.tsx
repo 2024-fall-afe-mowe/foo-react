@@ -6,11 +6,11 @@ function App() {
   const players = ["Caden J", "Tom S", "Charles L", "Enzo F"];
 
   return (
-    <div className="App">
+    <div className="App" style={{ textAlign: "left" }}>
       <h1>Players</h1>
       <ul>
         {players.map((x) => (
-          <li style={{ textAlign: "left" }}>{x}</li>
+          <li>{x}</li>
         ))}
       </ul>
     </div>
