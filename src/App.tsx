@@ -8,12 +8,13 @@ function App() {
     "Peter B."
     , "Chris P."
     , "Chris B."
+    , "Caden J."
     , "Swastik A."
     , "Tom S."
   ];
 
   return (
-    <div className="App">
+    <div className="App" style={{ textAlign: 'left'}}>
       <h1>
         Players
       </h1>
