@@ -3,22 +3,26 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const players = [
+    "Tom S."
+    , "Chris P."
+    , "Chris B."
+    , "Peter B."
+    , "Swastik A."
+    , "Caden J."
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        Players
+      </h1>
+      <ul>
+        {
+          players.map(x => <li>{x}</li>)
+        }
+      </ul>
     </div>
   );
 }
