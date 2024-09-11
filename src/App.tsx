@@ -14,13 +14,16 @@ function App() {
   ];
 
   return (
-    <div className="App">
+    <div 
+      className="App" 
+      style={{ textAlign: 'left'}}
+    >
       <h1>
         Players
       </h1>
       <ul>
         {
-          players.map(x => <li style={{ textAlign: 'left'}}>{x}</li>)
+          players.map(x => <li>{x}</li>)
         }
       </ul>
     </div>
